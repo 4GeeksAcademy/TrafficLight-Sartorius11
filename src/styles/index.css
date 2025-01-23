@@ -1,12 +1,40 @@
+.traffic-light{
+    background: black;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 5px;
+}
+.light{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+}
+.red{
+    margin: 10px;
+    background: red;
+}
+.orange{
+    margin: 10px;
+    background: orange;
+}
+.green{
+    margin: 10px;
+    background: green;
+}
+.glowRed{
+    box-shadow: 0px 0px 30px 20px #ff0000;
+}
+.glowGreen{
+    box-shadow: 0px 0px 30px 20px #3a8051;
+}
+.glowOrange{
+    box-shadow: 0px 0px 30px 20px #fbb400;
+}
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.pole {
+    background: rgb(0, 0, 0);
+    width: 20px;
+    height: 150px;
+    margin: 0 auto; /* Centra el poste */
+}
